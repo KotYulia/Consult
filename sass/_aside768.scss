@@ -1,0 +1,46 @@
+@media (max-width: 991px) {
+  .sidebar-content {
+    margin-top: 5rem;
+    .search-form {
+      margin-top: 1rem;
+    }
+    h3 {
+      margin: 3rem auto 1rem;
+    }
+    .categories-list {
+      li {
+        margin-bottom: 0.5rem;
+      }
+      a {
+        line-height: 2.5rem;
+        &:before {
+          margin-right: 1rem;
+        }
+      }
+    }
+    h4 {
+      margin-top: 1rem;
+    }
+    .date-list {
+      margin-bottom: 2rem;
+    }
+    .tags-list {
+      a {
+        padding: 1.2rem 1.5rem;
+        &:hover {
+          padding: 1.1rem 1.4rem;
+        }
+      }
+    }
+    .subscribe-block {
+      width: 22rem;
+      padding: 2rem 1rem 2rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar-content {
+    margin-top: 0;
+  }
+}

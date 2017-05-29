@@ -1,0 +1,50 @@
+@media (max-width: 991px) {
+  section {
+    padding: 3.5rem 0;
+  }
+  .contact-link, .team-link {
+    margin: 5rem auto 3rem;
+  }
+  .management {
+    article {
+      flex-wrap: wrap;
+    }
+    .management-name {
+      margin-top: 1rem;
+    }
+    .management-post {
+      margin-bottom: 1rem;
+    }
+    .social-links {
+      margin-top: 2.5rem;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  p {
+    padding-bottom: 2rem;
+  }
+  #about-content {
+    .emblem-block {
+      position: relative;
+      top: 0;
+      width: 28rem;
+    }
+  }
+  .management {
+    img {
+      margin-right: 0;
+    }
+    article {
+      justify-content: center;
+      margin: 0 auto;
+      text-align: center;
+      max-width: 40rem;
+    }
+    .social-links {
+      margin-bottom: 3rem;
+      justify-content: center;
+    }
+  }
+}

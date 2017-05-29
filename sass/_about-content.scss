@@ -1,0 +1,162 @@
+.container {
+  h2 {
+    font-size: 3.2rem;
+    line-height: 3.3rem;
+    margin: 0 0 3.5rem;
+    color: #343a3b;
+    span {
+      display: block;
+      font-size: 1.4rem;
+      line-height: 3.3rem;
+      color: #898e8f;
+      text-transform: uppercase;
+    }
+  }
+}
+section {
+  padding: 9.5rem 0;
+  p {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    margin-bottom: 0;
+    color: #838b8c;
+  }
+}
+.page-title {
+  padding: 0;
+}
+.emblem-content {
+  position: relative;
+  .emblem-block {
+    position: absolute;
+    text-align: center;
+    top: -9rem;
+    right: 0;
+    padding: 2.3rem 2.3rem 5rem;
+    background-color: #03b6e7;
+    border: 6px solid #ffffff;
+    box-shadow: 0 9px 16px rgba(154, 154, 154, 0.3);
+    p {
+      font-size: 1rem;
+      line-height: 2rem;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+    .company {
+      padding: 0 3rem 3rem;
+      border: 1px solid #ffffff;
+    }
+    .company-age, .clients-number {
+      display: block;
+
+    }
+    .clients-number {
+      font-size: 4.8rem;
+      margin-top: 5rem;
+      line-height: 5rem;
+    }
+    .company-age {
+      font-size: 7.5rem;
+      line-height: 7.5rem;
+      &:before {
+        content: url("../img/about-us-icon.png");
+        display: block;
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}
+
+.core-values {
+  background-color: #e7eff1;
+  h3 {
+    font-size: 1.8rem;
+    margin: 3rem auto;
+    color: #343a3b;
+  }
+  .client-satisfaction:before {
+    content: url("../img/icon-client-satisfaction.png");
+  }
+  .fully-support:before {
+    content: url("../img/icon-fully-support.png");
+  }
+  .play-win:before {
+    content: url("../img/icon-win.png");
+  }
+}
+.contact-link, .team-link {
+  text-align: center;
+  margin-top: 8rem;
+  a {
+    background-color: #16d428;
+    color: #ffffff;
+    font-size: 1.3rem;
+    width: 16.5rem;
+    padding: 1.7rem 3rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    &:hover {
+      background: transparent;
+      border: 1px solid #16d428;
+      color: #16d428;
+    }
+  }
+}
+.vision-mission {
+  img {
+    margin-bottom: 4.7rem;
+  }
+}
+.management {
+  border-top: 1px solid #dbe4e4;
+  img {
+    border-radius: 50%;
+    margin-right: 3rem;
+  }
+  article {
+    display: flex;
+    align-items: flex-start;
+  }
+  .management-name {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #343a3b;
+    text-transform: uppercase;
+  }
+  .management-post {
+    display: block;
+    color: #898e8f;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-bottom: 2.8rem;
+  }
+  .social-links {
+    margin-top: 4.8rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #dbe4e4;
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover{
+        color: #16d428;
+      }
+    }
+    .facebook {
+      color: #3b5998;
+    }
+    .twitter {
+      color: #50abf1;
+      padding: 0 0.8rem;
+    }
+    .google {
+      color: #dc4b3f;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@media (max-width: 991px) {
+  #blog-content {
+    .main-content {
+      margin: 5rem auto;
+      .blog-heading {
+        font-size: 1.7rem;
+        margin: -1rem 0 4rem;
+      }
+      .blog-date-list {
+        margin-top: -14.3rem;
+      }
+      p {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 510px) {
+  #blog-content {
+    .main-content {
+      .blog-heading {
+        margin: -1rem 0 4rem;
+      }
+      .blog-date-list {
+        margin-top: -4.9rem;
+      }
+    }
+    .dummy-text {
+      padding: 2rem 0.5rem;
+      p {
+        padding: 0 0.5rem;
+      }
+      .right-quotes {
+        margin-top: 3rem;
+      }
+      .left-quotes {
+        margin-bottom: -3rem;
+      }
+    }
+  }
+}

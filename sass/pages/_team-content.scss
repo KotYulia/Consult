@@ -1,0 +1,77 @@
+.container {
+  h2 {
+    font-size: 3.2rem;
+    line-height: 3.3rem;
+    margin: 0 0 2.6rem;
+    color: #343a3b;
+    span {
+      display: block;
+      font-size: 1.4rem;
+      line-height: 3.3rem;
+      color: #898e8f;
+      text-transform: uppercase;
+    }
+  }
+}
+.page-title {
+  padding: 0;
+}
+.leadership {
+  margin: 9.5rem auto;
+  .leader-info {
+    padding: 5rem 4rem 5.1rem 4.9rem;
+    border: 1px solid #dee8eb;
+  }
+  .leader-name {
+    color: #343a3b;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+  }
+  .leader-job {
+    display: block;
+    font-size: 1.4rem;
+    line-height: 3.3rem;
+    color: #898e8f;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    margin-top: 3.8rem;
+    color: #838b8c;
+  }
+  .social-links {
+    margin-top: 6.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    a {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      &:hover{
+        color: #16d428;
+      }
+    }
+    .facebook {
+      color: #3b5998;
+    }
+    .twitter {
+      color: #50abf1;
+      padding: 0 0.8rem;
+    }
+    .google {
+      color: #dc4b3f;
+    }
+  }
+}
+.teams {
+  background-color: #e7eff1;
+  padding: 9.4rem 0;
+  .team-photos {
+    li {
+      margin-bottom: 3rem;
+    }
+  }
+}
